@@ -31,4 +31,4 @@ use the editor.
 
 ## Advent calendar
 - All backend access goes through src/lib/advent-api.ts (getCalendarStatus/openDay/claimReward); it is a localStorage mock so a real backend can replace function bodies without touching UI.
-- Only official BETFURY assets (src/assets logo SVG and uploaded mascot/reward images) are used; never generate images containing the logo, to avoid distorted branding.
+- Only official BETFURY assets (logo SVG, uploaded mascot/reward images, and user-supplied concept art crops) are used; never generate images containing the logo, to avoid distorted branding.
