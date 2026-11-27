@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Advent calendar
+- All backend access goes through src/lib/advent-api.ts (getCalendarStatus/openDay/claimReward); it is a localStorage mock so a real backend can replace function bodies without touching UI.
+- Only official BETFURY assets (src/assets logo SVG and uploaded mascot/reward images) are used; never generate images containing the logo, to avoid distorted branding.
